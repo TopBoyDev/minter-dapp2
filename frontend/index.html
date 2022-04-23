@@ -315,98 +315,120 @@
 
     </style>
 
-    <!--TEAM SECTION-->
-    
-    <div style="margin-top: 180px;">
 
-    <h1 style="color: #9966cc; margin-bottom: 50px; text-align: center; font-size: 80px;"><img id="teamImage" src="teamTitle.png" alt="team"/></h1>
+      <!--TEAM SECTION-->
+        
+      <div class="team" id="teamm">
 
-    <div id="team">
+        <div class="team-member">
+                <div class="team-pic"><img class="avatar"  src="avatar2.png" alt="avatar"/></div>
+                <div class="team-title">Lead Dev</div>
+                <div class="team-name">KYLE L</div>
+        </div>
 
+        <div class="team-member">
+          <div class="team-pic"><img class="avatar"  src="avatar1.png" alt="avatar"/></div>
+          <div class="team-title">Designer</div>
+          <div class="team-name">TYRESE M</div>
+      </div>
 
-      <div class="avatar">
-        <img id="avatarImg2"  src="avatar2.png" alt="avatar"/>
-        <p class="role">Lead Dev</p>
-        <p class="dev">KYLE L</p>
-    </div>
-
-    <div class="avatar">
-           <img id="avatarImg1"  src="avatar1.png" alt="avatar"/>
-           <p class="role" >Designer</p>
-           <p class="dev">TYRESE M</p>
-    </div>
-    
-    <div class="avatar">
-      <img id="avatarImg1"  src="avatar3.png" alt="avatar"/>
-      <p class="role" >Marketing Manager</p>
-      <p class="dev">GIA F</p>
-   </div>
-
-
-    
-</div>
-
+      <div class="team-member">
+          <div class="team-pic"><img class="avatar"  src="avatar3.png" alt="avatar"/></div>
+        <div class="team-title">Marketing Manager</div>
+        <div class="team-name">GIA F</div>
   </div>
 
 
-    <style>
+</div>
 
-      #team{
 
-          margin-right: auto;
-          margin-left: auto;
+<style>
 
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
 
-          margin-bottom: 50px;
-          width: 85%;
+@media screen and (max-width: 800px) {
+
+ #teamm{
+
+  display: initial;
 
       }
 
-      .dev{
-        
-        border: 1px solid #9966cc;
-        width: 25vw;
-        border-radius: 0px 0px 0px 100px ;
-        color:  #9966cc;
-        background-color: black;
-        background-image: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);;
-        font-size: 23px;
-        padding: 10px;
-        text-align: center;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      }
+      .team-member{
 
-      .role{
-              
-        border: 1px solid #9966cc;
-        width: 25vw;
-        color:  #9966cc;
-        background-color: black;
-        background-image: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);;
-        font-size: 17px;
-        padding: 10px;
-        text-align: center;
-            
+         margin-top: 30px;
       }
 
 
-        #avatarImg1, #avatarImg2{
+}
 
-            width: 25vw;
-            border-radius: 0px 100px 0px 0px;
-            border: 1px solid #9966cc;
-            margin-bottom: 17px;
-        }
 
-        #teamImage{
+.team{
 
-                width: 27vw;
-               
-        }
-    </style>
+  display: flex;
+     justify-content: center;
+     align-items: center;
+  
+}
+
+.team-member{
+     margin-left: auto;
+     margin-right: auto;
+}
+
+ .team-pic, .team-title, .team-name{
+
+              width: 250px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-left: auto;
+              margin-right: auto;
+ }
+
+ .team-pic{
+
+       height: 220px;
+       border-radius: 0px 100px 0px 0px;
+       border: 1px solid #9966cc;
+
+ }
+
+ .team-title{
+
+          height: 50px;
+          border: 1px solid #9966cc;
+          font-size: 23px;
+          color:  #9966cc;
+          background-color: black;
+          background-image: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);;
+
+          }
+
+
+.team-name{
+
+          height: 50px;
+          border-radius: 0px 100px 0px 0px;
+          border: 1px solid #9966cc;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          font-size: 27px;
+          color:  #9966cc;
+          border-radius: 0px 0px 0px 100px;
+          background-color: black;
+          background-image: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+          }
+
+ 
+          .avatar{
+
+             width: 250px;
+             z-index: -1;
+             border-radius: 0px 100px 0px 0px;
+          }
+
+</style>
+
+<!--END OF TEAM SECTION-->
 
 
 
