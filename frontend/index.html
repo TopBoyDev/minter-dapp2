@@ -224,97 +224,93 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
-    <!--THE STORY SECTION-->
-    <div id="story"> 
+     <!--STORY SECTION!-->
+            
+     <div class="story" id="storyy">
 
-       <div class="thisDiv">
-             <h2>The Story</h2>
-             <p class="p-text">
-              A narrative, story or tale is any account of a series of related events or experiences, whether nonfictional or fictional. Narratives can be presented through a sequence of written or spoken words, still or moving images, or any combination of these.
-             </p>
-       </div>
+      <div class="story-text">
+           
+                 <div>
+                       <h1>The Story</h1>
+                       <p>This is the story</p>
+              </div>
 
-       <div class="thisDiv2">
-             <img id="storyImage"  src="storyImage.png" alt="storyImage"/>
-       </div>
+      </div>
 
-    </div>
-
+      <div class="story-img" ><img id="storyImage"  src="storyImage.png" alt="storyImage"/></div>
 
 
+</div>
 
 
+<style>
+      
+      
+      @media screen and (max-width: 800px) {
+
+           #storyy{
+
+                 display: initial;
+       
+             }
 
 
- 
-    <style>
-    
-    #story{
+      }
 
-          
-            height: 531.5px;
+
+      .story{
+       
+           display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            border-radius: 0px 0px 0px 100px;
 
             margin-left: auto;
             margin-right: auto;
-            margin-top: 160px;
-            margin-bottom: 80px;
-          
-            
-            
-            display: flex;
-            justify-content: space-around;
 
+            margin-bottom: 700px;
+         
+       }
 
-            width: 65%;
-            @media (min-width: 767px) {
-              flex-direction: row;
-            }
+      .story-text{
 
-    }
-        
-    #storyImage{
+           
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+      }
 
-         max-width: 37.5vw;
-         border: 1px solid #9966cc;
-  
-    }
-  
-    .thisDiv{
-      
+      .story-img{
 
-            border: 1px solid #9966cc;
-            border-radius: 0px 0px 0px 100px;
-            background-color: black;
-            background-image:  radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+             border-radius: 0px 0px 70px  0px ;
+      }
+     
+      .story-text, .story-img{
 
-    }
+                     width: 90%;
+                     height: 400px;
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     margin-left: auto;
+                     margin-right: auto;
 
-    .thisDiv2{
+                     background-color: black;
+                 background-image: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);;
+                 color: #9966cc;
+                 border: 1px solid #9966cc;
+        }
 
-            text-align: center;
+        #storyImage{
 
-            
-            }
+              height: 300px;
+              border-radius: 0px 0px 70px  0px ;
 
-    .p-text{
-      text-align: center;
-      color: white;
-  
-      padding: 30px;
+        }
 
-    }
+        </style>
 
-    h2{
-      text-align: center;
-      color: white;
-      line-height: 27px;
-      padding: 40px 40px 0px 40px;
-      font-size: 47px;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-
-    </style>
-
+        <!--STORY SECTION END!-->
 
       <!--TEAM SECTION-->
         
